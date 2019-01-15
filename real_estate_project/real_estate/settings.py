@@ -145,11 +145,3 @@ try:
     from .local_settings import *
 except ImportError:
     pass
-
-
-# Email Settings
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_PORT = 587
-# EMAIL_HOST_USER = 'auto.tulan@gmail.com'
-# EMAIL_HOST_PASSWORD = 'lt1994615'
-# EMAIL_USE_TLS = True
