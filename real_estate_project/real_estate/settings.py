@@ -141,6 +141,12 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
 
+try:
+    from .local_settings import *
+except ImportError:
+    pass
+
+
 # Email Settings
 # EMAIL_HOST = 'smtp.gmail.com'
 # EMAIL_PORT = 587
